@@ -2,11 +2,11 @@ public class OutputOfNumbers {
   public static void main (String[] args) {
     for (int i = 0; i <= 100; i ++) {
       if (i % 3 == 0 && i % 5 == 0) {
-        System.out.print("Tutti-Frutti\n");
+        System.out.println("Tutti-Frutti");
       } else if (i % 3 == 0 ) {
-        System.out.print("Tutti\n");
+        System.out.println("Tutti");
       } else if (i % 5 == 0) {
-        System.out.print("Frutti\n");
+        System.out.println("Frutti");
       } else {
         System.out.println(i);
       }
