@@ -5,7 +5,7 @@ public class Fibonacci {
     int fibSum = 0;
     int fib1 = 0;
     int fib2 = 1;
-    System.out.println("Enter any positive integer");
+    System.out.println("Enter any positive number");
     Scanner number = new Scanner( System.in );
     int InputNum = number.nextInt();
     if (InputNum < 0) {
