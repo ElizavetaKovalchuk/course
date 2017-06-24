@@ -28,7 +28,7 @@ public static int Scan(int i) {
   System.out.println("Enter any positive number");
     Scanner number = new Scanner( System.in );
     i = number.nextInt();
-    retun i;
+    return i;
   }
 }   
  
