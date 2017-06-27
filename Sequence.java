@@ -14,8 +14,8 @@ public class Sequence {
             continue;
           }
     }   
-    int n = 0;
-    for (int i = 0; i < number.length; i++) {
+    int n = 1;
+    for (int i = 0; i < number.length-1; i++) {
       if (number[i].length() < number[i+1].length()) {
         n++;
       }
