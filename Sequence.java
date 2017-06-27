@@ -16,7 +16,7 @@ public class Sequence {
     }   
     int n = 0;
     for (int i = 0; i < number.length; i++) {
-      if (number[i] < number[i + 1]) {
+      if (number[i].length() < number[i+1].length()) {
         n++;
       }
     }
