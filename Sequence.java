@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Sequence {
   public static void main (String[] args) {
-    System.out.println("Enter numbers separated by a comma");
     Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter numbers separated by a comma");
     String input = scanner.nextLine();
     String[] number = input.split(",");
     int[] sequence = new int[number.length];
